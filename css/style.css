@@ -1,0 +1,12 @@
+.navbar {
+    background: none;
+    border: 0;
+}
+
+/*-----LANDING PAGE-----*/
+
+.landing_page{
+    background-image: url(../wireframes/landing-draft-2.png);
+    background-size: cover;
+    height:100vh;
+}
