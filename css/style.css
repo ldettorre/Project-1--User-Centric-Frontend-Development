@@ -37,9 +37,13 @@
 }
 
 .about_img {
-    padding-top: 10%;
+    padding-top: 20%;
     padding-left: 25%;
+    width:400px;
 }
+
+
+
 
 /*-----SKILLS PAGE-----*/
 
@@ -74,6 +78,8 @@
 .skill_descriptions ul{
     list-style: none;
 }
+
+
 /*-----PROJECTS PAGE-----*/
 
 .projects-section {
@@ -98,8 +104,6 @@
 }
 
 
-
-
 /*-----CONTACT PAGE-----*/
 
 .contact-section {
@@ -108,6 +112,11 @@
     /*width: 100vw;*/
     /*padding-bottom: 40%;*/
     background-position: center;
+}
+
+
+.contact-section textarea {
+    resize: none;
 }
 
 
