@@ -123,13 +123,13 @@
         <div class="container" id="projects">
             <div class="row">
                 <div class="col-sm-12 projects_blurb">
-                    <h2>My recent projects</h2>
+                    <h2>Projects</h2>
                     <br>
-                    <p>Recent work blurb on past projects and maybe thumbnails on work in progress</p>
+
                 </div>
             </div>
 
-            <div class="project_rows">
+            <div class="project_rows" id="boxes">
                 <div class="col-sm-6 col-md-4 text-center project_thumb">
                     <img src="./img/dummybox.png" width="350px"></img>
                 </div>
@@ -140,15 +140,6 @@
                     <img src="./img/dummybox.png" width="350px"></img>
                 </div>
 
-                <div class="col-sm-6 col-md-4 text-center project_thumb">
-                    <img src="./img/dummybox.png" width="350px"></img>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center project_thumb">
-                    <img src="./img/dummybox.png" width="350px"></img>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center project_thumb">
-                    <img src="./img/dummybox.png" width="350px"></img>
-                </div>
             </div>
         </div>
     </div>
@@ -167,18 +158,15 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">
-                            <label for="user">Name:</label>
-                            <input type="text" value="" class="form-control" id="user">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" value="" class="form-control" id="email">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" size="15" name="Name ">
+                            <br>
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <textarea class="form-control" rows="5" id="message"></textarea>
+                            <textarea class="form-control" name="Message " rows="5"></textarea>
                         </div>
-                        <button type="submit" class="btn">Submit</button>
+                        <input type="submit" value="Send" class="btn">
                     </div>
                 </div>
             </form>
