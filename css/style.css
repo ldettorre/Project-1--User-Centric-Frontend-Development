@@ -168,9 +168,8 @@
 /*-----MEDIA QUERIES-----*/
 
 @media (max-width: 768px) {
-    .landing_name,
-    .landing_title {
-        margin-right: 10px;
+    h2,p, li  {
+        text-align: center;
     }
     
     
