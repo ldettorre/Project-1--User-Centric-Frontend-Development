@@ -159,12 +159,26 @@
 
 }
 
-
+.contact-top{
+    padding-top:5%;
+    padding-bottom:5%;
+}
 .contact-section textarea {
     resize: none;
 }
 
+.contact-blurb-padding {
+    padding-top:5%;
+}
 
+.contact-blurb p{
+    font-size:2rem;
+    padding-top:7%;
+}
+
+.social-media-icon-padding{
+    padding-top:2%;
+}
 /*-----MEDIA QUERIES-----*/
 
 @media (max-width: 768px) {
