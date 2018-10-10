@@ -150,12 +150,13 @@
 /*-----CONTACT PAGE-----*/
 
 .contact-section {
-    /*background-image: url(../wireframes/contact.png);*/
+    background-image: url(../img/contactbg.jpg);
     background-size: cover;
     /*width: 100vw;*/
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-position: center;
+    background-position: left;
+    background-attachment: fixed;
 
 }
 
@@ -179,6 +180,14 @@
 .social-media-icon-padding{
     padding-top:2%;
 }
+
+
+/*-----FOOTER-----*/
+
+footer {
+    
+}
+
 /*-----MEDIA QUERIES-----*/
 
 @media (max-width: 768px) {
