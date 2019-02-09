@@ -44,19 +44,7 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     100% { opacity: .9; }
 }
 
-@keyframes button-fadein {
-    0% { opacity: 0; }
-    10% { opacity: .9; }
-    20% { opacity: 0; }
-    30% { opacity: .9; }
-    40% { opacity: 0; }
-    50% { opacity: .9; }
-    60% { opacity: 0; }
-    70% { opacity: .9; }
-    80% { opacity: 0; }
-    90% { opacity: .9; }
-    100% { opacity: 0; }
-}
+
 @keyframes slide {
     0% { margin-right: 150px; }
     100% { margin-right: 0px; }
