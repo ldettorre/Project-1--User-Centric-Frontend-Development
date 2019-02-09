@@ -3,21 +3,21 @@
     color: #f8f8f8;
 }
 
-
-/*body {*/
-/*    margin-top: 50px;*/
-/*}*/
+/*Below allows all text with the included tags to be styled*/
+/*using a google font called Playfair*/
+h1,h2,h3,h4,h5,p,a,li,label,input{
+    font-family: 'Playfair Display', serif;
+}
 
 /*-----LANDING PAGE-----*/
 
 .landing-section {
     background-image: url(../img/landingimg.jpg);
     background-size: cover;
-    /*width: 100vw;*/
     height: 100vh;
     background-position: center;
     background-attachment: fixed;
-    animation: fadein 3s;
+    animation: landing-fadein 3s;
 }
 
 .landing_name {
@@ -28,16 +28,35 @@
 
 .landing_title {
     float: right;
-    animation: fadein 3s, slide 2s;
+    animation: landing-fadein 3s, slide 2s;
     padding: 0px; /* keeps title in line with landing_name by removing preset padding */
+    padding-bottom:350px;
 }
 
-@keyframes fadein {
+.landing-button{
+    animation: button-fadein 20s;
+    color:black;
+}
+
+@keyframes landing-fadein {
     0% { opacity: 0; }
     10% { opacity: 0; }
     100% { opacity: .9; }
 }
 
+@keyframes button-fadein {
+    0% { opacity: 0; }
+    10% { opacity: .9; }
+    20% { opacity: 0; }
+    30% { opacity: .9; }
+    40% { opacity: 0; }
+    50% { opacity: .9; }
+    60% { opacity: 0; }
+    70% { opacity: .9; }
+    80% { opacity: 0; }
+    90% { opacity: .9; }
+    100% { opacity: 0; }
+}
 @keyframes slide {
     0% { margin-right: 150px; }
     100% { margin-right: 0px; }
@@ -46,7 +65,6 @@
 /*-----ABOUT PAGE-----*/
 
 .about-style {
-    /*background-image: url(../wireframes/about_draft2.png);*/
     background-size: cover;
     /*width: 100vw;*/
     /*padding-bottom: 20%;*/
@@ -61,10 +79,6 @@
     padding-top: 20%;
     padding-left: 25%;
     width: 400px;
-/*    background-image: url(./img/headshot.jpg);
-    background-size: cover;
-    background-position: center*/;
-    
 }
 
 
@@ -158,7 +172,6 @@
 .contact-section {
     background-image: url(../img/contactbg.jpg);
     background-size: cover;
-    /*width: 100vw;*/
     padding-top: 10vh;
     padding-bottom: 10vh;
     background-position: left;
@@ -198,10 +211,6 @@ footer {
 /*-----MEDIA QUERIES-----*/
 
 @media (max-width: 768px) {
-    /*h2,p,li  {*/
-    /*    text-align: center;*/
-    /*}*/
-    
     .about_headshot {
         padding-left:0px;
         width:100%;
