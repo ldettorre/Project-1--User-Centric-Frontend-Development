@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -23,7 +23,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="#">Luca D'Ettorre</a>
+                <a class="navbar-brand" href="#landing">Luca D'Ettorre</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -33,11 +33,11 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    
-        
-    <div class=" landing-section">
+        </nav>
+    </div>
+
+
+    <div class=" landing-section" id="landing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-8 col-xs-8 landing_name">
@@ -53,26 +53,18 @@
         </div>
     </div>
 
-
-    <div class="about-section">
-        <div class="container" id="about">
-
-            <div class="col-sm-6 about_bio_title">
-                <h2>Hi, I'm Luca.</h2>
-                <br>
-                <h2>A portfolio... A resume.. A bit about me.</h2>
-                <br>
-                <br>
-                <p>Welcome to my website. Like myself, it is in the early stages but will be growing. I recently completed a diploma in Fullstack Software develpment at Code Institute,Dublin during the summer of 2018.</p>
-                <br>
-                <p>I am now transitioning into the tech industry with my skills in Html,CSS,Javascript,Jquery and Python as well as Flask and Django. While developing my current skill set I will also be working on new languages,technologies and libraries
-                    to add to the roster.</p>
-            </div>
-            <div class="col-md-4 col-sm-4 text-center">
-                <img src="./img/headshot.jpg" class="about_headshot"></img>
-            </div>
+    <section class="container about-style" id="about">
+        <div class="col-sm-6 about_bio_title">
+            <h2>Hi, I'm Luca.</h2>
+            <h2>A portfolio... A resume.. A bit about me.</h2>
+            <p>Welcome to my website. Like myself, it is in the early stages but will be growing. I recently completed a diploma in Fullstack Software develpment at Code Institute,Dublin during the summer of 2018.</p>
+            <p>I am now transitioning into the tech industry with my skills in Html,CSS,Javascript,Jquery and Python as well as Flask and Django. While developing my current skill set I will also be working on new languages,technologies and libraries to
+                add to the roster.</p>
         </div>
-    </div>
+        <div class="col-md-4 col-sm-4 text-center">
+            <img src="./img/headshot.jpg" class="about_headshot" width="80%" alt="Profile photo of the portfolio ownerl, Luca D'Ettore.">
+        </div>
+    </section>
 
     <div class="skills-section">
         <div class="container" id="skills">
@@ -85,7 +77,7 @@
                 <div class="col-sm-4">
                     <h2>Soft Skills</h2>
                     <br>
-                    <p> With 8 years experience in fast paced, high pressure and time sensitive work environments coupled with just over 3 of those years as management it has allowed me to greatly develop my soft skills among others./</p>
+                    <p> With 8 years experience in fast paced, high pressure and time sensitive work environments coupled with just over 3 of those years as management it has allowed me to greatly develop my soft skills among others.</p>
                     <br>
                     <ul>
                         <li>Teamwork</li>
@@ -129,35 +121,35 @@
                 </div>
                 <div class="row progress-section">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" roll="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
                             <span class="sr-only">90% Complete</span>
                         </div>
-                        <span class="progress-type">HTML/HTML5</span>
+                        <span class="progress-type">HTML5</span>
                     </div>
 
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped " roll="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
                             <span class="sr-only">80% Complete</span>
                         </div>
-                        <span class="progress-type">CSS/CSS3</span>
+                        <span class="progress-type">CSS3</span>
                     </div>
 
                     <div class="progress">
-                        <div class="progress-bar progress-bar-warning progress-bar-striped " roll="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%;">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%;">
                             <span class="sr-only">55% Complete</span>
                         </div>
                         <span class="progress-type">Javacript</span>
                     </div>
 
                     <div class="progress">
-                        <div class="progress-bar progress-bar-info progress-bar-striped" roll="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%;">
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%;">
                             <span class="sr-only">45% Complete</span>
                         </div>
                         <span class="progress-type">Python</span>
                     </div>
 
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success progress-bar-striped " roll="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
                             <span class="sr-only">60% Complete</span>
                         </div>
                         <span class="progress-type">Django</span>
@@ -174,20 +166,18 @@
                 <div class="col-sm-12 projects_blurb">
                     <h2>Projects</h2>
                     <p>Some recent projects I've worked on and some I have in progress</p>
-                    <br>
-
                 </div>
             </div>
 
-            <div class="project_rows" id="boxes">
+            <div class="row project_rows" id="boxes">
                 <div class="col-sm-6 col-md-4 text-center project_thumb">
-                    <a href="https://ldettorre.github.io/India-Spice/" target="_blank"><img src="./img/indiaspicethumb.png" width="350px"></img></a>
+                    <a href="https://ldettorre.github.io/India-Spice/" target="_blank"><img src="./img/indiaspicethumb.png" width="350px"></a>
                 </div>
                 <div class="col-sm-6 col-md-4 text-center project_thumb">
-                    <img src="./img/dummybox.png" width="350px"></img>
+                    <img src="./img/dummybox.png" width="350px">
                 </div>
                 <div class="col-sm-6 col-md-4 text-center project_thumb">
-                    <img src="./img/dummybox.png" width="350px"></img>
+                    <img src="./img/dummybox.png" width="350px">
                 </div>
 
             </div>
@@ -227,9 +217,9 @@
                 </form>
             </div>
             <div class="row text-center social-media-icon-padding">
-                <a href="https://github.com/ldettorre" target="_blank"><img src="./img/github.png" width="50px"></img></a>
-                <a href="https://twitter.com/luca_dettorre" target="_blank"><img src="./img/twitter.png" width="50px"></img></a>
-                <a href="https://ie.linkedin.com/in/lucadettorre" target="_blank"><img src="./img/linkedin.png" width="50px"></img></a>
+                <a href="https://github.com/ldettorre" target="_blank"><img src="./img/github.png" width="50px"></a>
+                <a href="https://twitter.com/luca_dettorre" target="_blank"><img src="./img/twitter.png" width="50px"></a>
+                <a href="https://ie.linkedin.com/in/lucadettorre" target="_blank"><img src="./img/linkedin.png" width="50px"></a>
             </div>
         </div>
     </div>
