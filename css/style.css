@@ -1,13 +1,19 @@
-.navbar {
-    border: 0;
-    color: #f8f8f8;
-}
-
 /*Below allows all text with the included tags to be styled*/
 /*using a google font called Playfair*/
 h1,h2,h3,h4,h5,p,a,li,label,input{
     font-family: 'Playfair Display', serif;
 }
+
+/*-----NAVBAR SECTION-----*/
+.navbar {
+    border: 0;
+    color: #f8f8f8;
+}
+
+.navbar-right{
+    margin-right:5px;
+}
+
 
 /*-----LANDING SECTION-----*/
 
@@ -46,13 +52,6 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 /*-----ABOUT SECTION-----*/
 
-.about-style {
-    background-size: cover;
-    /*width: 100vw;*/
-    /*padding-bottom: 20%;*/
-    background-position: center;
-}
-
 .about_bio_title {
     padding: 190px 0px 0px 20px;
 }
@@ -67,15 +66,6 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 
 /*-----SKILLS SECTION-----*/
-
-.skills-style {
-    /*background-image: url(../wireframes/skills.png);*/
-    background-size: cover;
-    /*width: 100vw;*/
-    /*background-color: lightblue;*/
-    /*padding-bottom: 25%;*/
-    background-position: center;
-}
 
 .skills_title {
     text-align: center;
@@ -139,22 +129,18 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     display:none;
     margin-bottom:10px;
 }
-.projects-style {
-    background-image:none;
-    background-size: cover;
-    /*width: 100vw;*/
-    /*padding-bottom: 10%;*/
-    background-position: center;
-}
 
 .projects_blurb {
     padding-top: 5vh;
     text-align: center;
 }
 
-
 .project_thumb {
-    padding-bottom:15%;
+    padding-bottom:5%;
+}
+
+.fas {
+    margin:10px;
 }
 
 /*-----CONTACT SECTION-----*/
