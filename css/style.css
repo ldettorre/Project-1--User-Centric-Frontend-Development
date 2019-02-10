@@ -9,9 +9,9 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     font-family: 'Playfair Display', serif;
 }
 
-/*-----LANDING PAGE-----*/
+/*-----LANDING SECTION-----*/
 
-.landing-section {
+.landing-style {
     background-image: url(../img/landingimg.jpg);
     background-size: cover;
     height: 100vh;
@@ -29,13 +29,8 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 .landing_title {
     float: right;
     animation: landing-fadein 3s, slide 2s;
-    padding: 0px; /* keeps title in line with landing_name by removing preset padding */
+    padding-left: 0px; /* keeps landing_title in line with landing_name by removing preset padding */
     padding-bottom:350px;
-}
-
-.landing-button{
-    animation: button-fadein 20s;
-    color:black;
 }
 
 @keyframes landing-fadein {
@@ -44,13 +39,12 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     100% { opacity: .9; }
 }
 
-
 @keyframes slide {
     0% { margin-right: 150px; }
     100% { margin-right: 0px; }
 }
 
-/*-----ABOUT PAGE-----*/
+/*-----ABOUT SECTION-----*/
 
 .about-style {
     background-size: cover;
@@ -72,9 +66,9 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 
 
-/*-----SKILLS PAGE-----*/
+/*-----SKILLS SECTION-----*/
 
-.skills-section {
+.skills-style {
     /*background-image: url(../wireframes/skills.png);*/
     background-size: cover;
     /*width: 100vw;*/
@@ -135,9 +129,17 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 }
 
 
-/*-----PROJECTS PAGE-----*/
+/*-----PROJECTS SECTION-----*/
+#projectbox:hover #projecttext {
+  display: block;
+  margin-bottom: 15px;
+}
 
-.projects-section {
+#projecttext{
+    display:none;
+    margin-bottom:10px;
+}
+.projects-style {
     background-image:none;
     background-size: cover;
     /*width: 100vw;*/
@@ -155,16 +157,15 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     padding-bottom:15%;
 }
 
-/*-----CONTACT PAGE-----*/
+/*-----CONTACT SECTION-----*/
 
-.contact-section {
+.contact-style {
     background-image: url(../img/contactbg.jpg);
     background-size: cover;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 25vh;
     background-position: left;
     background-attachment: fixed;
-
 }
 
 .contact-top{
