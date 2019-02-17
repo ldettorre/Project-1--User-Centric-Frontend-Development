@@ -2,6 +2,7 @@
 /*using a google font called Playfair*/
 h1,h2,h3,h4,h5,p,a,li,label,input{
     font-family: 'Playfair Display', serif;
+    color:black;
 }
 
 /*-----NAVBAR SECTION-----*/
@@ -17,7 +18,7 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 /*-----LANDING SECTION-----*/
 
-.landing-style {
+.landing-bg {
     background-image: url(../img/landingimg.jpg);
     background-size: cover;
     height: 100vh;
@@ -52,6 +53,14 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 /*-----ABOUT SECTION-----*/
 
+.about-bg {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
+
 .about_bio_title {
     padding: 190px 0px 0px 20px;
 }
@@ -66,6 +75,14 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 
 /*-----SKILLS SECTION-----*/
+
+.skills-bg{
+    background-image: url(../img/skills.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
 
 .skills_title {
     text-align: center;
@@ -120,6 +137,15 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
 
 
 /*-----PROJECTS SECTION-----*/
+
+.projects-bg{
+    /*background-image: url(../img/skills.jpg);*/
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
+
 .project_thumb:hover .project_desc {
   display: block;
   margin-bottom: 15px;
@@ -135,13 +161,14 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     text-align: center;
 }
 
-.project_thumb {
-    padding-bottom:5%;
-}
+/*.project_thumb {*/
+/*    padding-bottom:5%;*/
+/*}*/
 
 .fas {
     margin:10px;
 }
+
 
 /*-----CONTACT SECTION-----*/
 
