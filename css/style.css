@@ -161,9 +161,9 @@ h1,h2,h3,h4,h5,p,a,li,label,input{
     text-align: center;
 }
 
-/*.project_thumb {*/
-/*    padding-bottom:5%;*/
-/*}*/
+.project_thumb {
+    margin-bottom:5%;
+}
 
 .fas {
     margin:10px;
