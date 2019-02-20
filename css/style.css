@@ -139,14 +139,6 @@ body {
 
 /*-----PROJECTS SECTION-----*/
 
-.projects-bg{
-    /*background-image: url(../img/skills.jpg);*/
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    padding-bottom:100px;
-}
-
 .project-thumb:hover .project-desc {
   display: block;
   margin-bottom: 15px;
