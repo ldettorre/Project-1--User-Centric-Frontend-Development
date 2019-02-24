@@ -20,7 +20,7 @@ As for site users, I wanted to efficiently brief recruiters on my current skill 
 * Javascript
 * FontAwesome
 * Google Fonts 
-* Balsamiq for wiregframing and mock-ups.
+* Balsamiq for wireframing and mock-ups.
 
 
 ## Features
@@ -72,15 +72,15 @@ The following has also been manually tested.
 ## User Stories
 All the following objectives are catered for on this portfolio site.
 * As the site owner - I want a space to tell people a little about myself,  show off my creative skill set, showcase projects of my choosing and give people different mediums to contact me through.
-* As a recruiter/employer - I want to learn about an individuals background and skills without having to do excessive heavy reading. I also want to easily be able to see their work in action without having to ask for permission.
-* As a recruiter/employer - I want to know how can I connect with them.
+* As a recruiter/employer - I want to learn about an individuals background, skills and view some of their work.
+* As a recruiter/employer - I want to be able to contact them.
 * As a recruiter/employer - I want access to a CV for further review.
 
 
 ## Deployment
 I have hosted this site on GitHub Pages and deployed it from the master branch.
 
-In order to run this yourself, enter `git clone https://github.com/ldettorre/portfolio.git` into your terminal.
+In order to run this yourself, enter `git clone https://github.com/ldettorre/portfolio.git` into the terminal of your chosen editor.
 
 
 ### Media
@@ -90,10 +90,12 @@ I sourced photos, fonts and icons for this site from
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
 
-### Acknowledgements and Credits
+## Acknowledgements and Credits
 I would like to credit the automatic smooth scrolling feature to [hschafer2017](https://github.com/hschafer2017/HSCHAFER-Portfolio/blob/master/assets/js/index.js) on Github. 
 
 Also credit to [mparkcode](https://github.com/mparkcode) for helping me with a bug I had regarding my profile photo. Initially the photo caused y-axis scrolling when using width="px" however he advised to use a width="%" and it fixed the issue.
+
+
 
 
 
