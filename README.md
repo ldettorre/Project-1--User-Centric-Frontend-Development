@@ -55,7 +55,7 @@ I'd like to make the site itself alot more 'alive' through the use of Javascript
 ### Responsiveness
 Through out the development of this site I have been using Chrome DevTools, Firefox Developer Tools and [ResponsiveDesignChecker](https://responsivedesignchecker.com/) to test responsiveness. As I had some issues with Chrome DevTools during testing, I wanted to ensure some form of coverage by incorporating other tools as well as some physical hardware. The aforementioned tools were beneficial in simualting a multitude of resloutions I did not have access to in physical form, for example, that used for Apple hardware.
 
-With regards to physical hardware, the site was tested on a number of different Samsung Galaxy smartphones using Samsung's browser as well as Chrome, Dell and Asus laptops and also screen size and resoloutions ranging from 24 inch 1080p monitors up to 75 inch panels at 4k. 
+With regards to physical hardware, the site was tested on a number of different Samsung Galaxy smartphones using Samsung's browser as well as Chrome.Dell and Asus laptops were also used as test hardware as well as screen size and resoloutions ranging from LG 24 inch 1080p monitors up to a Sony 75 inch panel at 4k. 
 
 At the smaller resoloution widths less than 300 pixels the site develops an issue with the landing text breaking out of the image space. In Chrome DevTools there is also white space along the right hand side of the page that increases as the you go below the 300 pixel width. However, from 300 pixel width and above the site performs as expected.
 
@@ -82,10 +82,6 @@ I have hosted this site on GitHub Pages and deployed it from the master branch.
 
 In order to run this yourself, enter `git clone https://github.com/ldettorre/portfolio.git` into your terminal.
 
-## Credits
-
-### Content
-All content in the "About Me/À Propos" and "Work/Travail" sections in this portfolio site were written by me. 
 
 ### Media
 I sourced photos, fonts and icons for this site from 
@@ -94,7 +90,7 @@ I sourced photos, fonts and icons for this site from
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
 
-### Acknowledgements
+### Acknowledgements and Credits
 I would like to credit the automatic smooth scrolling feature to [hschafer2017](https://github.com/hschafer2017/HSCHAFER-Portfolio/blob/master/assets/js/index.js) on Github. 
 
 Also credit to [mparkcode](https://github.com/mparkcode) for helping me with a bug I had regarding my profile photo. Initially the photo caused y-axis scrolling when using width="px" however he advised to use a width="%" and it fixed the issue.
